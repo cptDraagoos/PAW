@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A4E69; /* Header background color */
+    color: #FFF; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%; /* Round corners */
+}
+
+.hobbies {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    background: url('bullet-icon.svg') no-repeat left center; /* Replace default bullet with an image */
+    padding-left: 25px;
+}
+
+.contact-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-link img {
+    width: 50px; /* Adjust icon size */
+}
